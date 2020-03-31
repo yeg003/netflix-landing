@@ -26,7 +26,7 @@ body {
 /* Hero Section*/
 
 #hero-section{
-    background: url('/img/hero-bg.jpg');
+    background: url('img/hero-bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 30px 40px;
@@ -231,4 +231,11 @@ body {
     width: 80%;
     margin: 0 auto;
     color:#fff;
+
+.footer-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+
 }
